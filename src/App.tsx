@@ -3,7 +3,7 @@ import Section from "./section";
 import "./fonts/SFDistantGalaxy.ttf";
 import { useEffect } from "react";
 // import CodeBlock from "./codeblock.tsx";
-
+//hello:)
 function App() {
   useEffect(() => {
     const handleScroll = () => {
