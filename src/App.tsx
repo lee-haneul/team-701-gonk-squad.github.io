@@ -1,3 +1,4 @@
+import { alignProperty } from "@mui/material/styles/cssUtils";
 import "./App.css";
 // import Section from "./section";
 import "./fonts/SFDistantGalaxy.ttf";
@@ -50,7 +51,7 @@ function App() {
         className="hero"
       >
         <div className="herocase">
-          <h1 className="star-wars">Gonk Squad</h1>
+          <h1 className="star-wars">gonk squad</h1>
           <img className="gonk" src="./GonkWhite.png" />
         </div>
       </div>
@@ -80,7 +81,8 @@ function App() {
             <a href="http://localhost:5173/#top" className="gonk-logo">
               <img src="./GonkWhite.png" className="gonk-logo" />
             </a>
-            <li>
+            <h1 className="nav-text">team 701 gonk squad</h1>
+            {/*<li>
               <a className="nav-text" href="#events">
                 Events
               </a>
@@ -104,7 +106,7 @@ function App() {
               <a className="nav-text" href="#contact">
                 Contact Us
               </a>
-            </li>
+          </li>*/}
           </ul>
         </nav>
       </header>
@@ -126,6 +128,33 @@ function App() {
       {/* <TypingParagraph /> */}
 
       <img style={{ width: "100%" }} src="/teamcrop.jpg" alt="" />
+      
+      <div className="outreach">outreach</div>
+      <div className="aboutTheRobot">about the robot</div>
+      <div className="programming">programming</div>
+      {/*
+      HARPER NOTES
+      <div>
+        <li>Outreach
+          <ul>Sponsors</ul>
+          <ul>Industry Connections</ul>
+          <ul>Goals</ul>
+          <ul>Events</ul>
+          <ul>Conclusion</ul>
+     </li>
+        <li>About the Robot
+          <ul>Design Process</ul>
+         <ul>Overveiw</ul>
+         <ul>Subsystems</ul>
+         <ul>Strategy</ul>
+     </li>
+        <li>Programming
+         <ul>LED Indicators</ul>
+          <ul>Autonomous</ul>
+          <ul>Odometry</ul>
+         <ul>Vision</ul>
+       </li>
+      </div>*/}
 
       {/* <Events>
       </Events> */}
