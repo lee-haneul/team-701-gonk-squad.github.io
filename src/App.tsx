@@ -37,14 +37,6 @@ function App() {
   return (
     <div>
       <div
-        style={{
-          display: "flex",
-          flexDirection: "column",
-          width: "96vw",
-          height: "100vh",
-          alignSelf: "center",
-          justifySelf: "center",
-        }}
         className="hero"
       >
         <div
