@@ -30,6 +30,15 @@ h1 {
   line-height: 1.1;
 }
 
+.hero {
+  display: "flex";
+  flexDirection: "column";
+  width: "96vw";
+  height: "100vh";
+  alignSelf: "center";
+  justifySelf: "center";
+}
+
 button {
   border-radius: 8px;
   border: 1px solid transparent;
