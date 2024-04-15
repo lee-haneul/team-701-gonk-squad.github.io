@@ -6,7 +6,7 @@ import { useEffect } from "react";
 // import TypingParagraph from "./typingparagraph";
 // import Events from "./events.tsx";
 // import CodeBlock from "./codeblock.tsx";
-
+//hello:)
 function App() {
   useEffect(() => {
     const handleScroll = () => {
@@ -40,14 +40,6 @@ function App() {
   return (
     <div>
       <div
-        style={{
-          display: "flex",
-          flexDirection: "column",
-          width: "96vw",
-          height: "100vh",
-          alignSelf: "center",
-          justifySelf: "center",
-        }}
         className="hero"
       >
         <div className="herocase">
@@ -203,6 +195,27 @@ function App() {
           </a>
         </li>
       </footer>
+    </div>
+    <div>
+      <li>Outreach
+        <ul>Sponsors</ul>
+        <ul>Industry Connections</ul>
+        <ul>Goals</ul>
+        <ul>Events</ul>
+        <ul>Conclusion</ul>
+    </li>
+      <li>About the Robot
+        <ul>Design Process</ul>
+        <ul>Overveiw</ul>
+        <ul>Subsystems</ul>
+        <ul>Strategy</ul>
+    </li>
+      <li>Programming
+        <ul>LED Indicators</ul>
+        <ul>Autonomous</ul>
+        <ul>Odometry</ul>
+        <ul>Vision</ul>
+    </li>
     </div>
   );
 }
