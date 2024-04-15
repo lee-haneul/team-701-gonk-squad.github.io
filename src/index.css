@@ -30,7 +30,7 @@ h1 {
   line-height: 1.1;
 }
 
-.hero {
+hero {
   display: "flex";
   flexDirection: "column";
   width: "96vw";
