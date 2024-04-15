@@ -124,29 +124,6 @@ function App() {
       <div className="outreach">outreach</div>
       <div className="aboutTheRobot">about the robot</div>
       <div className="programming">programming</div>
-      {/*
-      HARPER NOTES
-      <div>
-        <li>Outreach
-          <ul>Sponsors</ul>
-          <ul>Industry Connections</ul>
-          <ul>Goals</ul>
-          <ul>Events</ul>
-          <ul>Conclusion</ul>
-     </li>
-        <li>About the Robot
-          <ul>Design Process</ul>
-         <ul>Overveiw</ul>
-         <ul>Subsystems</ul>
-         <ul>Strategy</ul>
-     </li>
-        <li>Programming
-         <ul>LED Indicators</ul>
-          <ul>Autonomous</ul>
-          <ul>Odometry</ul>
-         <ul>Vision</ul>
-       </li>
-      </div>*/}
 
       {/* <Events>
       </Events> */}
